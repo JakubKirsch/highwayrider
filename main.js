@@ -7,7 +7,7 @@ let laps = 0;
 let raining = true;
 let night = true;
 
-function startGame(type) {
+window.startGame = function(type) {
   document.getElementById("menu").style.display = "none";
 
   scene = new THREE.Scene();
@@ -34,3 +34,4 @@ function startGame(type) {
 
 window.addEventListener("keydown", e => keys[e.key] = true);
 window.addEventListener("keyup", e => keys[e.key] = false);
+
