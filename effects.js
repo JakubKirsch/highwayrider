@@ -1,3 +1,5 @@
+import * as THREE from 'three';
+
 function createLights() {
   const ambient = new THREE.AmbientLight(0xffffff, night ? 0.3 : 0.8);
   scene.add(ambient);

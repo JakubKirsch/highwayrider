@@ -1,3 +1,5 @@
+import * as THREE from 'three';
+
 let scene, camera, renderer;
 let player, road, enemies = [];
 let keys = {};

@@ -1,3 +1,5 @@
+import * as THREE from 'three';
+
 function createRoad() {
   const roadMat = new THREE.MeshStandardMaterial({ color: 0x374151 });
   road = new THREE.Mesh(new THREE.PlaneGeometry(20, 200), roadMat);

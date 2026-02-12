@@ -1,3 +1,5 @@
+import * as THREE from 'three';
+
 function createCar(type, x, z, isPlayer = false) {
   const car = new THREE.Group();
 
